@@ -97,15 +97,28 @@ hr {
     margin:1em 0;
     padding:0;
 }
-
-input, select {
-    vertical-align:middle;
-}
-body { background: white; text-align:center; font-family: 'Yanone Kaffeesatz','Droid Sans', arial, serif;}
-#frame { width: 650px; margin: 10px auto; text-align:left;}
-#content { margin-left: 240px;}
-#logo { float: left;}
+a, a:visited { color:#FE1F4B; text-decoration: none;}
+a:hover, a:visited:hover { color:#333;}
+input, select { vertical-align:middle; }
+body { background: white; text-align:center;  font-size: 15px}
+#frame { width: 750px; margin: 10px auto; text-align:left; padding-right: 200px}
+#content { margin-left: 240px; padding-top: 48px; font-family: helvetica, arial, sans-serif;}
+#corporate { margin: 50px auto; width: 200px; font-family: helvetica, arial, sans-serif; font-size: 12px; line-height: 1.2;}
+#logo { float: left; width: 225px;}
 sup { vertical-align: super; font-size: smaller; }
 h1 { font-size: 48px;}
-h2 { font-size: 36px;}
-h3 { font-size: 14px;}
+h2 { font-size: 32px;}
+h3 { font-size: 24px;}
+header { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; font-family: 'Yanone Kaffeesatz',arial, serif;}
+header h1, header h2, header h3 { margin: 12px 6px }
+p { margin: 12px 0px; line-height: 1.2} 
+em { font-weight: bolder; font-style:normal} 
+ul { list-style:disc; margin: 6px 0px;  }
+section { margin: 12px 8px; }
+li { padding-left: 10px; margin-left: 30px; margin-bottom: 6px} 
+h4 { border-bottom: 1px solid #ccc; font-family: 'Yanone Kaffeesatz',arial, serif; margin-top: 18px; font-size: 20px}
+section h1 { font-family: 'Yanone Kaffeesatz',arial, serif; margin-top:18px; margin-bottom: 12px;}
+
+dl { margin: 12px 4px;line-height: 1.2 } 
+dt { float:left; font-weight: bold; width: 110px; text-align: right} 
+dd { margin-left: 120px; margin-bottom: 6px} 
