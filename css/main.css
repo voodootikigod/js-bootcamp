@@ -100,8 +100,8 @@ hr {
 a, a:visited { color:#FE1F4B; text-decoration: none;}
 a:hover, a:visited:hover { color:#333;}
 input, select { vertical-align:middle; }
-body { background: white; text-align:center;  font-size: 15px}
-#frame { width: 750px; margin: 10px auto; text-align:left; padding-right: 200px}
+body { background: white; text-align:center;  font-size: 15px; padding-bottom: 250px;}
+#frame { width: 850px; margin: 10px auto; text-align:left; padding-right: 100px}
 #content { margin-left: 240px; padding-top: 48px; font-family: helvetica, arial, sans-serif;}
 #corporate { margin: 50px auto; width: 200px; font-family: helvetica, arial, sans-serif; font-size: 12px; line-height: 1.2;}
 #logo { float: left; width: 225px;}
@@ -122,3 +122,4 @@ section h1 { font-family: 'Yanone Kaffeesatz',arial, serif; margin-top:18px; mar
 dl { margin: 12px 4px;line-height: 1.2 } 
 dt { float:left; font-weight: bold; width: 110px; text-align: right} 
 dd { margin-left: 120px; margin-bottom: 6px} 
+.register { text-align: center; margin: 24px 0px;}
