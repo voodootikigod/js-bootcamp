@@ -102,6 +102,7 @@ a:hover, a:visited:hover { color:#333;}
 input, select { vertical-align:middle; }
 body { background: white; text-align:center;  font-size: 15px; padding-bottom: 250px;}
 #frame { width: 850px; margin: 10px auto; text-align:left; padding-right: 100px}
+#frame.wide { width: 950px;}
 #content { margin-left: 240px; padding-top: 48px; font-family: helvetica, arial, sans-serif;}
 #corporate { margin: 50px auto; width: 200px; font-family: helvetica, arial, sans-serif; font-size: 12px; line-height: 1.2;}
 #logo { float: left; width: 225px;}
